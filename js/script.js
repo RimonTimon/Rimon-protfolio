@@ -40,7 +40,7 @@
       }, 100);
     });
 
-    fetch("/static/project.json")
+    fetch("project.json")
       .then((response) => response.json())
       .then((projects) => {
         const grid = document.getElementById("workGrid");
@@ -59,7 +59,7 @@
       })
       .catch((error) => console.error("Failed to load project data:", error));
 
-    fetch("/static/skills.json")
+    fetch("skills.json")
       .then((response) => response.json())
       .then((skills) => {
         const container = document.getElementById("skillsContainer");
