@@ -32,7 +32,7 @@
       }
     })();
 
-    // Skill Bar Animation
+
     document.querySelectorAll(".skill-progress").forEach((bar) => {
       bar.style.width = "0";
       setTimeout(() => {
@@ -40,7 +40,7 @@
       }, 100);
     });
 
-    fetch("project.json")
+    fetch("./project.json")
       .then((response) => response.json())
       .then((projects) => {
         const grid = document.getElementById("workGrid");
@@ -49,7 +49,7 @@
           const item = document.createElement("a");
           item.className = "work-item";
           item.href = project.link;
-          item.target = "_blank"; // opens in a new tab
+          item.target = "_blank"; 
           item.innerHTML = `
               <h3>${project.title}</h3>
               <p>${project.description}</p>
@@ -59,7 +59,7 @@
       })
       .catch((error) => console.error("Failed to load project data:", error));
 
-    fetch("skills.json")
+    fetch("./skills.json")
       .then((response) => response.json())
       .then((skills) => {
         const container = document.getElementById("skillsContainer");
