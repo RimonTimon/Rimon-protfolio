@@ -1,5 +1,5 @@
-<script>
-    // Typing Animation
+
+
     const texts = [
       "Backend Developer.",
       "Django Specialist.",
@@ -79,4 +79,3 @@
         });
       })
       .catch((error) => console.error("Error loading skills:", error));
-  </script>
