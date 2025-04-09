@@ -1,0 +1,17 @@
+[
+  {
+    "title": "E-Commerce REST API",
+    "description": "Django-powered API with JWT auth & PostgreSQL.",
+    "link": "https://github.com/yourusername/ecommerce-api"
+  },
+  {
+    "title": "Student Management System",
+    "description": "React frontend + Django backend with MySQL.",
+    "link": "https://github.com/yourusername/student-management"
+  },
+  {
+    "title": "Real-Time Chat App",
+    "description": "WebSockets + Django Channels + Redis.",
+    "link": "https://github.com/yourusername/chat-app"
+  }
+]

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Rimon | Backend Dev</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">RIMON</div>
+          <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="hero">
+      <div class="container">
+        <h1 class="hero-title">
+          <span class="typing-text" id="dynamic-text"></span>
+        </h1>
+        <p class="hero-subtitle">
+          Hi, I'm <b>Rimon</b> — a backend-focused developer specializing in
+          Django, REST APIs, and databases, with experience in React for
+          frontend integration.
+        </p>
+        <div class="hero-buttons">
+          <a href="#work" class="btn">See My Work</a>
+          <a href="#" class="btn" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="work-grid" id="workGrid"></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Behind the Code</h2>
+        <img
+          src="/static/images/profile3.jpg"
+          alt="Rimon"
+          class="profile-img"
+        />
+        <div class="about-content">
+          <div>
+            <p>
+              I'm a CSE <strong>student</strong> from Bangladesh with a strong
+              passion for backend development. I build scalable and efficient
+              systems using <strong>Django, REST APIs</strong>, and relational
+              databases — and I enjoy connecting it all with React.
+            </p>
+            <p>
+              Outside of coding, I love exploring how things work — even if that
+              means breaking a few along the way.
+            </p>
+          </div>
+          <div class="skills" id="skillsContainer"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/mdrimon01889@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New message from Rimon's portfolio"
+          />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+        </div>
+        <p>© 2024 Rimon. No fluff, just code.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
