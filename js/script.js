@@ -1,14 +1,14 @@
 
 
     const texts = [
-      "Backend Developer.",
-      "Django Specialist.",
-      "API Engineer.",
-      "Database Architect.",
-      "Tech-Driven Mind.",
-      "Software Craftsman.",
-      "Efficient Coder.",
-      "Problem Solver.",
+      "Backend Developer",
+      "Django Specialist",
+      "API Engineer",
+      "Database Architect",
+      "Tech-Driven Mind",
+      "Software Craftsman",
+      "Efficient Coder",
+      "Problem Solver",
     ];
     let count = 0;
     let index = 0;
