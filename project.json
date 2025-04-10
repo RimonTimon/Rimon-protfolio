@@ -1,8 +1,8 @@
 [
   {
     "title": "Human following arduino robot",
-    "description": "Arduino Uno microcontroller, HC-SR04 ultrasonic sensors, TT Gear Motor, Servo Motor, DC motors with encoders, 18650 Li-on battery power supply",
+    "description": "Arduino Uno microcontroller, HC-SR04 ultrasonic sensors, TT Gear Motor",
     "link": "https://group-project-eosin.vercel.app/"
-  },
+  }
 
 ]
