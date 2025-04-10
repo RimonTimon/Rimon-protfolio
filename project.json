@@ -1,17 +1,8 @@
 [
   {
-    "title": "E-Commerce REST API",
-    "description": "Django-powered API with JWT auth & PostgreSQL.",
-    "link": "https://github.com/yourusername/ecommerce-api"
+    "title": "Human following arduino robot",
+    "description": "Arduino Uno microcontroller, HC-SR04 ultrasonic sensors, TT Gear Motor, Servo Motor, DC motors with encoders, 18650 Li-on battery power supply",
+    "link": "https://group-project-eosin.vercel.app/"
   },
-  {
-    "title": "Student Management System",
-    "description": "React frontend + Django backend with MySQL.",
-    "link": "https://github.com/yourusername/student-management"
-  },
-  {
-    "title": "Real-Time Chat App",
-    "description": "WebSockets + Django Channels + Redis.",
-    "link": "https://github.com/yourusername/chat-app"
-  }
+
 ]
