@@ -3,6 +3,10 @@
     "title": "Human following arduino robot",
     "description": "Arduino Uno microcontroller, HC-SR04 ultrasonic sensors, TT Gear Motor",
     "link": "https://group-project-eosin.vercel.app/"
+  },
+  {
+    "title": "Bank Management System",
+    "description": "Developed a Django-based Bank Management System with features including user registration, account management, deposits, withdrawals, transfers, and fixed deposits.",
+    "link": "https://github.com/RimonTimon/banking-system"
   }
-
 ]
